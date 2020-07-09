@@ -105,3 +105,19 @@ void DrawProcessing()
 	// 描画処理を終了する場合、必ず最後に実行する
 	Engine::FinishDrawing();
 }
+()
+{
+	for (int i = 3; 0 < i; i--)
+	{
+		printf("\n");
+		printf("%d\n", i);
+		printf("\n");
+	}
+	printf("START");
+
+	system("pause");
+	return 0;
+}
+
+	
+
